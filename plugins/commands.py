@@ -37,15 +37,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+M8xm6tr2TwU5MTU1'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/cinemahub1000')
+            InlineKeyboardButton('👉 Cʜᴀɴɴᴇʟ 👈', url='https://t.me/+M8xm6tr2TwU5MTU1'),
+            InlineKeyboardButton('👉 Uᴘᴅᴀᴛᴇs 👈', url='https://t.me/cinemahub1000')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('🎻 HELP 🎻', callback_data='help'),
+            InlineKeyboardButton('🎻 Aʙᴏᴜᴛ 🎻', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://t.me/cinemahub00')
+            InlineKeyboardButton('Aᴅᴍɪᴍ 💥', url='https://t.me/cinemahub00')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -64,7 +64,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 JOIИ CHAИИΞL 🔥", url=invite_link.invite_link
+                    "🎻 Jᴏɪɴ Cʜᴀɴɴᴇʟ 🎻", url=invite_link.invite_link
                 )
             ]
         ]
