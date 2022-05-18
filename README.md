@@ -50,7 +50,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <br>
 <p>
- <a href="https://heroku.com/deploy?template=https://github.com/MFMEDIA/bastin">
+ <a href="https://heroku.com/deploy?template=https://github.com/MFMEDIA/newone">
  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -59,7 +59,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/MFMEDIA/bastin
+git clone https://github.com/MFMEDIA/newone
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
